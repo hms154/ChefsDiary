@@ -1,0 +1,97 @@
+{
+    "ingredients": [
+        {
+            "name": "Chicken",
+            "quantityPerServing": 0.5,
+            "unit": "lb"
+        },
+        {
+            "name": "Yogurt",
+            "quantityPerServing": 0.5,
+            "unit": "tbsp"
+        },
+        {
+            "name": "Meat Masala",
+            "quantityPerServing": 0.375,
+            "unit": "tsp"
+        },
+        {
+            "name": "Tumeric",
+            "quantityPerServing": 0.125,
+            "unit": "tsp"
+        },
+        {
+            "name": "Salted Butter (Amul)",
+            "quantityPerServing": 1.5,
+            "unit": "oz"
+        },
+        {
+            "name": "Garlic Powder/Paste",
+            "quantityPerServing": 0.125,
+            "unit": "tsp"
+        },
+        {
+            "name": "Ginger",
+            "quantityPerServing": 0.125,
+            "unit": "tsp"
+        },
+        {
+            "name": "Garam Masala",
+            "quantityPerServing": 0.1875,
+            "unit": "tsp"
+        },
+        {
+            "name": "Chili Powder",
+            "quantityPerServing": 0.25,
+            "unit": "tsp"
+        },
+        {
+            "name": "Kashmiri Lal Mirch",
+            "quantityPerServing": 0.375,
+            "unit": "tsp"
+        },
+        {
+            "name": "Kasuri Methi",
+            "quantityPerServing": 0.25,
+            "unit": "tsp"
+        },
+        {
+            "name": "Melon Seeds",
+            "quantityPerServing": 0.25,
+            "unit": "tbsp"
+        },
+        {
+            "name": "White Poppy Seeds",
+            "quantityPerServing": 0.375,
+            "unit": "tsp"
+        },
+        {
+            "name": "Yellow Onions",
+            "quantityPerServing": 0.125,
+            "unit": "Large"
+        },
+        {
+            "name": "Tomatoes",
+            "quantityPerServing": 0.5,
+            "unit": "Medium"
+        },
+        {
+            "name": "Garlic",
+            "quantityPerServing": 0.5,
+            "unit": "Clove"
+        },
+        {
+            "name": "Cumin Seeds",
+            "quantityPerServing": 0.375,
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        "Marinade chicken with yoghurt, meat masala, turmeric powder, garlic powder/paste, ginger paste, salt and 1 tsp red chilli powder. Leave it for 2 hrs.",
+        "Heat up some butter (1/6 total) in a pan and fry the chopped yellow onions with  the whole cloves of garlic in it. Don't over fry it. In a separate pot, boil about  the tomatoes. Make puree of both of them and keep in separate bowls. Also make paste of the char magaz seeds + poppy seeds.",
+        "Fry the chicken in loads of butter (1/2 total ) in a frying pan and keep it aside. Its okay if the water doesn't dry off completely.",
+        "In pressure cooker, add some butter (1/6 total) and fry up some cumin seeds, then add the onion paste, fry that for 5 mins. Now add the tomato paste and fry that for 10 mins. Adjust salt, add the  garam masala, kashmiri lal mirch and remaining red chilli powder. Add in the seed paste and crushed kasuri methi. Cook it for 15 mins.",
+        "Add the chicken, remaining butter (1/6 total) and pressure cook it (3 whistles).",
+        "Garnish with chopped cilantro and chopped boiled egg(you can avoid this if you don't like eggs)."
+      ]
+}

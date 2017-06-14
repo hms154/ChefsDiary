@@ -1,97 +1,243 @@
 {
-    "ingredients": [
-        {
-            "name": "Chicken",
-            "quantityPerServing": 0.5,
-            "unit": "lb"
+    "Recipes": {
+        "Butter Chicken": {
+            "name": "Butter Chicken",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/250px-Chicken_makhani.jpg",
+            "ingredients": [
+                {
+                    "name": "Chicken",
+                    "quantityPerServing": 0.5,
+                    "unit": "lb"
+                },
+                {
+                    "name": "Yogurt",
+                    "quantityPerServing": 0.5,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Meat Masala",
+                    "quantityPerServing": 0.375,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Tumeric",
+                    "quantityPerServing": 0.125,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Salted Butter (Amul)",
+                    "quantityPerServing": 1.5,
+                    "unit": "oz"
+                },
+                {
+                    "name": "Garlic Powder/Paste",
+                    "quantityPerServing": 0.125,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Ginger",
+                    "quantityPerServing": 0.125,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Garam Masala",
+                    "quantityPerServing": 0.1875,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Chili Powder",
+                    "quantityPerServing": 0.25,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Kashmiri Lal Mirch",
+                    "quantityPerServing": 0.375,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Kasuri Methi",
+                    "quantityPerServing": 0.25,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Melon Seeds",
+                    "quantityPerServing": 0.25,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "White Poppy Seeds",
+                    "quantityPerServing": 0.375,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Yellow Onions",
+                    "quantityPerServing": 0.125,
+                    "unit": "Large"
+                },
+                {
+                    "name": "Tomatoes",
+                    "quantityPerServing": 0.5,
+                    "unit": "Medium"
+                },
+                {
+                    "name": "Garlic",
+                    "quantityPerServing": 0.5,
+                    "unit": "Clove"
+                },
+                {
+                    "name": "Cumin Seeds",
+                    "quantityPerServing": 0.375,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                "Marinade chicken with yoghurt, meat masala, turmeric powder, garlic powder/paste, ginger paste, salt and 1 tsp red chilli powder. Leave it for 2 hrs.",
+                "Heat up some butter (1/6 total) in a pan and fry the chopped yellow onions with  the whole cloves of garlic in it. Don't over fry it. In a separate pot, boil about  the tomatoes. Make puree of both of them and keep in separate bowls. Also make paste of the char magaz seeds + poppy seeds.",
+                "Fry the chicken in loads of butter (1/2 total ) in a frying pan and keep it aside. Its okay if the water doesn't dry off completely.",
+                "In pressure cooker, add some butter (1/6 total) and fry up some cumin seeds, then add the onion paste, fry that for 5 mins. Now add the tomato paste and fry that for 10 mins. Adjust salt, add the  garam masala, kashmiri lal mirch and remaining red chilli powder. Add in the seed paste and crushed kasuri methi. Cook it for 15 mins.",
+                "Add the chicken, remaining butter (1/6 total) and pressure cook it (3 whistles).",
+                "Garnish with chopped cilantro and chopped boiled egg(you can avoid this if you don't like eggs)."
+            ]
         },
-        {
-            "name": "Yogurt",
-            "quantityPerServing": 0.5,
-            "unit": "tbsp"
+        "Pav Bhaji": {
+            "name": "Pav Bhaji",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Pav_Bhaji.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Meat Masala",
-            "quantityPerServing": 0.375,
-            "unit": "tsp"
+        "Palak Paneer": {
+            "name": "Palak Paneer",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Palak_Paneer_%28Cottage_cheese_in_spinach_gravy%29.jpg/1920px-Palak_Paneer_%28Cottage_cheese_in_spinach_gravy%29.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Tumeric",
-            "quantityPerServing": 0.125,
-            "unit": "tsp"
+        "Kadhai Paneer": {
+            "name": "Kadhai Paneer",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Shahi_Paneer_%26_Butter_Naan.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Salted Butter (Amul)",
-            "quantityPerServing": 1.5,
-            "unit": "oz"
+        "Goat Curry": {
+            "name": "Goat Curry",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Curry_Goat_and_Rice.jpg/1920px-Curry_Goat_and_Rice.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Garlic Powder/Paste",
-            "quantityPerServing": 0.125,
-            "unit": "tsp"
+        "Egg Curry": {
+            "name": "Egg Curry",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Egg_curry.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Ginger",
-            "quantityPerServing": 0.125,
-            "unit": "tsp"
+        "Kheema Mutter": {
+            "name": "Kheema Mutter",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Spicy_Matar_Keema1.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Garam Masala",
-            "quantityPerServing": 0.1875,
-            "unit": "tsp"
+        "Murgh Saagawala": {
+            "name": "Murgh Saagawala",
+            "image": "https://i.ytimg.com/vi/NCjojVI-s1g/maxresdefault.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Chili Powder",
-            "quantityPerServing": 0.25,
-            "unit": "tsp"
+        "Seekh kebab": {
+            "name": "Seekh kebab",
+            "image": "http://www.seriouseats.com/recipes/assets_c/2016/08/20160801-seekh-kebab-recipe-48-thumb-1500xauto-433549.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Kashmiri Lal Mirch",
-            "quantityPerServing": 0.375,
-            "unit": "tsp"
+        "Chicken Korma": {
+            "name": "Chicken Korma",
+            "image": "http://img.taste.com.au/vvnvhut_/taste/2016/11/chicken-korma-84835-1.jpeg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         },
-        {
-            "name": "Kasuri Methi",
-            "quantityPerServing": 0.25,
-            "unit": "tsp"
-        },
-        {
-            "name": "Melon Seeds",
-            "quantityPerServing": 0.25,
-            "unit": "tbsp"
-        },
-        {
-            "name": "White Poppy Seeds",
-            "quantityPerServing": 0.375,
-            "unit": "tsp"
-        },
-        {
-            "name": "Yellow Onions",
-            "quantityPerServing": 0.125,
-            "unit": "Large"
-        },
-        {
-            "name": "Tomatoes",
-            "quantityPerServing": 0.5,
-            "unit": "Medium"
-        },
-        {
-            "name": "Garlic",
-            "quantityPerServing": 0.5,
-            "unit": "Clove"
-        },
-        {
-            "name": "Cumin Seeds",
-            "quantityPerServing": 0.375,
-            "unit": "tsp"
+        "Chicken Rezala": {
+            "name": "Chicken Rezala",
+            "image": "https://i.ytimg.com/vi/HDUQ_gZmJ6I/maxresdefault.jpg",
+            "ingredients": [
+                {
+                    "name": "Unknown",
+                    "quantityPerServing": "0",
+                    "unit": "Unknown"
+                }
+            ],
+            "steps": [
+                "TBD"
+            ]
         }
-    ],
-    "steps": [
-        "Marinade chicken with yoghurt, meat masala, turmeric powder, garlic powder/paste, ginger paste, salt and 1 tsp red chilli powder. Leave it for 2 hrs.",
-        "Heat up some butter (1/6 total) in a pan and fry the chopped yellow onions with  the whole cloves of garlic in it. Don't over fry it. In a separate pot, boil about  the tomatoes. Make puree of both of them and keep in separate bowls. Also make paste of the char magaz seeds + poppy seeds.",
-        "Fry the chicken in loads of butter (1/2 total ) in a frying pan and keep it aside. Its okay if the water doesn't dry off completely.",
-        "In pressure cooker, add some butter (1/6 total) and fry up some cumin seeds, then add the onion paste, fry that for 5 mins. Now add the tomato paste and fry that for 10 mins. Adjust salt, add the  garam masala, kashmiri lal mirch and remaining red chilli powder. Add in the seed paste and crushed kasuri methi. Cook it for 15 mins.",
-        "Add the chicken, remaining butter (1/6 total) and pressure cook it (3 whistles).",
-        "Garnish with chopped cilantro and chopped boiled egg(you can avoid this if you don't like eggs)."
-      ]
+    }    
 }

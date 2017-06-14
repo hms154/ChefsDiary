@@ -27,18 +27,16 @@ export default class Recipe extends React.Component {
   }
 
   render() {
-
-    let pic = this.state.servings >= 20 ?
-      require("./vader.jpg") :
-      require("./Chicken_makhani.jpg");
-
+    recipeName = this.props.navigation.state.params.name
+    var recipeDetails = recipes.Recipes[recipeName]
+  
     return (
       <View style={styles.container}>
         <ScrollView>
           <Card
             containerStyle={styles.card}
-            title="Murgh Mahkani (Butter Chicken)"
-            image={pic}
+            title={recipeDetails.name}
+            image={{uri: recipeDetails.image}}
           />
           <Card containerStyle={styles.card}>
             <Text>Servings: {this.state.servings}</Text>
@@ -50,8 +48,8 @@ export default class Recipe extends React.Component {
               onValueChange={value => this.setState({ servings: value })}
             />
           </Card>
-          <IngredientsList servings={this.state.servings} recipes={recipes}/>
-          <InstructionsList recipes={recipes} />
+          <IngredientsList servings={this.state.servings} recipes={recipeDetails}/>
+          <InstructionsList recipes={recipeDetails} />
         </ScrollView>
       </View>
     );

@@ -5,8 +5,8 @@ import { StackNavigator } from 'react-navigation';
 import { View } from 'react-native';
 
 class RecipesScreen extends React.Component {
-  onShowRecipe = () => {
-    this.props.navigation.navigate('RecipeDetail')
+  onShowRecipe = (recipeName) => {
+    this.props.navigation.navigate('RecipeDetail', {name: recipeName})
   }
 
   render() {

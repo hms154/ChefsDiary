@@ -12,7 +12,7 @@ export default class RecipesList extends React.Component {
 
     this.state = {
         recipes: [
-            "Murgh Mahkani (Butter Chicken)",
+            "Butter Chicken",
             "Pav Bhaji",
             "Palak Paneer",
             "Kadhai Paneer",
@@ -44,12 +44,12 @@ export default class RecipesList extends React.Component {
     const uuidV1 = require("uuid/v1");
     return (
       <List containerStyle={styles.listItem}>
-        {this.state.recipes.map((recipe, i) => {
+        {this.state.recipes.map((recipeName, i) => {
           return (
             <ListItem
               key={uuidV1()}
-              title={recipe} 
-              onPress={this.props.onShowRecipe}
+              title={recipeName} 
+              onPress={() => this.props.onShowRecipe(recipeName)}
             />
           );
         })}

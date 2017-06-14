@@ -32,7 +32,7 @@ export default class RecipesList extends React.Component {
     return (
       <View style={styles.container}>
         <ScrollView>
-          <Card containerStyle={styles.card} title="Recipes" image={pic}>
+          <Card containerStyle={styles.card} image={pic}>
             {this.AddRecipes()}
           </Card>
         </ScrollView>
@@ -48,7 +48,8 @@ export default class RecipesList extends React.Component {
           return (
             <ListItem
               key={uuidV1()}
-              title={recipe}
+              title={recipe} 
+              onPress={this.props.onShowRecipe}
             />
           );
         })}

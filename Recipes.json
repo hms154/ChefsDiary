@@ -104,9 +104,39 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Pav_Bhaji.jpg",
             "ingredients": [
                 {
-                    "name": "Unknown",
-                    "quantityPerServing": "0",
-                    "unit": "Unknown"
+                    "name": "Tomato",
+                    "quantityPerServing": "0.25",
+                    "unit": "Large"
+                },
+                {
+                    "name": "Cauliflower",
+                    "quantityPerServing": "0.25",
+                    "unit": "Cup"
+                },
+                {
+                    "name": "Potato",
+                    "quantityPerServing": "0.5",
+                    "unit": "Medium"
+                },
+                {
+                    "name": "Bell Pepper",
+                    "quantityPerServing": "0.25",
+                    "unit": "Large"
+                },
+                {
+                    "name": "Onion",
+                    "quantityPerServing": "0.25",
+                    "unit": "Medium"
+                },
+                {
+                    "name": "Garlic",
+                    "quantityPerServing": "1",
+                    "unit": "Cloves"
+                },
+                {
+                    "name": "Eggplant",
+                    "quantityPerServing": "0.25",
+                    "unit": "Large"
                 }
             ],
             "steps": [
@@ -118,9 +148,74 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Palak_Paneer_%28Cottage_cheese_in_spinach_gravy%29.jpg/1920px-Palak_Paneer_%28Cottage_cheese_in_spinach_gravy%29.jpg",
             "ingredients": [
                 {
-                    "name": "Unknown",
-                    "quantityPerServing": "0",
-                    "unit": "Unknown"
+                    "name": "Paneer",
+                    "quantityPerServing": "125",
+                    "unit": "gms"
+                },
+                {
+                    "name": "Red onion",
+                    "quantityPerServing": "0.25",
+                    "unit": "medium"
+                },
+                {
+                    "name": "Tomato",
+                    "quantityPerServing": "0.5",
+                    "unit": "medium"
+                },
+                {
+                    "name": "Garlic",
+                    "quantityPerServing": "0.75",
+                    "unit": "cloves"
+                },
+                {
+                    "name": "Grated ginger",
+                    "quantityPerServing": "0.25",
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Green chillies",
+                    "quantityPerServing": "0.75",
+                    "unit": ""
+                },
+                {
+                    "name": "Ghee",
+                    "quantityPerServing": "1",
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Spinach",
+                    "quantityPerServing": "3",
+                    "unit": "oz"
+                },
+                {
+                    "name": "Cumin seeds",
+                    "quantityPerServing": "0.5",
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Coriander powder",
+                    "quantityPerServing": "0.25",
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Tumeric",
+                    "quantityPerServing": "0.2",
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Red chili powder",
+                    "quantityPerServing": "0.2",
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Black pepper powder",
+                    "quantityPerServing": "0.2",
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Salt to taste",
+                    "quantityPerServing": "",
+                    "unit": ""
                 }
             ],
             "steps": [

@@ -15,8 +15,8 @@ class RecipesScreen extends React.Component {
 }
 
 const RecipesNavigator = StackNavigator({
-  RecipesList: { 
-    screen: RecipesScreen, 
+  RecipesList: {
+    screen: RecipesScreen,
     navigationOptions: {
       title: 'Recipes',
     },

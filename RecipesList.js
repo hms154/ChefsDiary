@@ -5,25 +5,14 @@ import {
 } from "react-native";
 import { Card, List, ListItem } from "react-native-elements";
 import styles from "./styles";
+import recipes from "./Recipes"
 
 export default class RecipesList extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-        recipes: [
-            "Butter Chicken",
-            "Pav Bhaji",
-            "Palak Paneer",
-            "Kadhai Paneer",
-            "Goat Curry",
-            "Egg Curry",
-            "Kheema Mutter",
-            "Murgh Saagawala",
-            "Seekh kebab",
-            "Chicken Korma",
-            "Chicken Rezala"
-        ]
+        recipes: Object.keys(recipes.Recipes)
     }
   }
 
@@ -48,7 +37,7 @@ export default class RecipesList extends React.Component {
           return (
             <ListItem
               key={uuidV1()}
-              title={recipeName} 
+              title={recipeName}
               onPress={() => this.props.onShowRecipe(recipeName)}
             />
           );

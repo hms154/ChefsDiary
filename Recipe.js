@@ -29,7 +29,6 @@ export default class Recipe extends React.Component {
   render() {
     recipeName = this.props.navigation.state.params.name
     var recipeDetails = recipes.Recipes[recipeName]
-  
     return (
       <View style={styles.container}>
         <ScrollView>
